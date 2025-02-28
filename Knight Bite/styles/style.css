@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+nav{
+    background-color:rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 20px 60px;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+.nav-logo img{
+    height: 65px;
+    width:150px;
+}
+.nav-links ul{
+    display: flex;
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+.nav-links li{
+    margin-right:25px;
+}
+#home-header{
+    background: url("../assets/Images/app-link-background.svg") no-repeat center/cover;
+    height: 100vh; /*view port height */
+    width: 100%;
+}
+.home-header-inner{ 
+    text-align: center;
+    color: white;
+    padding-top: 40vh;  
+}
+#home-header h1{
+    font-size: 80px;
+    letter-spacing: 2px;
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+.btn{
+    background-color: deeppink;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.app-store{
+    height: 3rem; 
+}
+.play-store{
+    height: 3.69rem;  
+}
+.store{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.features-inner{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 3rem;
+    padding: 5rem;
+}
+.features{
+    text-align: center;
+}
+.features h1{
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+.features-inner-img{
+    width: 10rem;
+}
+.banner-1,.banner-2{  
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+.banner-1 h1, .banner-2 h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: white;
+    padding-top: 30vh;
+}
+.banner-1{
+    background: url(../assets/Images/banner-1.webp) no-repeat center/cover;
+}
+.banner-2{
+    background: url(../assets/Images/banner-2.webp) no-repeat center/cover;
+    flex-direction: column;
+    gap: 6rem;
+}
+.btn1{
+    background-color: transparent;
+    border-radius: 2rem;
+    padding: 10px 20px;
+    border: 2px solid white;
+    color: white;
+}
+.connect-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+}
+.connect-section div{
+    line-height: 2.5rem;
+}
+input[type="email"]{
+    padding: 15px 25px;
+    border-radius: 3rem;
+    border: 1.2px solid black;
+}
+.mail-section img{
+    height: 3.5rem;
+    width: 3.4rem;
+    position: relative;
+    bottom: 3.3rem;
+   
+    left: 12rem;
+
+}
+.mail-section{
+    margin-top: 0.5rem;
+}
+.connect-section h1{
+    margin-bottom: 1rem;
+}
+.A,.B,.C,.D{
+    margin: 0.8rem;
+}
+.style{
+    display:flex;
+    justify-content: center;
+    margin: 50px;
+}
